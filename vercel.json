@@ -1,4 +1,10 @@
 {
+  "builds": [
+    {
+        "src": "dist/packages/api/main.js",
+        "use": "@vercel/node"
+    }
+  ],
   "routes": [
     {
       "src": "/api/(.*)",
