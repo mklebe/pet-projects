@@ -2,7 +2,10 @@
   "name": "@pet-projects/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx run-many -t build -p api webclient",
+    "serve": "nx run-many -t serve -p api webclient"
+  },
   "private": true,
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -16,6 +19,7 @@
     "@angular/platform-browser": "~16.1.0",
     "@angular/platform-browser-dynamic": "~16.1.0",
     "@angular/router": "~16.1.0",
+    "@babel/runtime": "^7.22.6",
     "@nestjs/common": "^10.0.2",
     "@nestjs/core": "^10.0.2",
     "@nestjs/platform-express": "^10.0.2",
