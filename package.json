@@ -4,6 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "dependencies": {
     "@angular/animations": "~16.1.0",
     "@angular/common": "~16.1.0",
